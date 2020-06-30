@@ -22,7 +22,7 @@ type Options struct {
 func logFatal(err error) {
 	fmt.Fprintln(os.Stderr, err)
 	os.Exit(1)
-}c
+}
 
 func logError(err error) {
 	fmt.Fprintln(os.Stderr, err)
